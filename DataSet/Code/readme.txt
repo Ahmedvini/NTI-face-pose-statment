@@ -8,5 +8,5 @@ With Basel Face Model (3DMM)
 4. Run the "main_show_with_BFM.m".
 
 Without Basel Face Model
-Since the application of BFM needs some time, we also provide the 68 3D-landmarks for easy use.
+Since the application of BFM needs some time, we also provide the 68 3D-landmarks for easyy use.
 1. Run the 'main_show_without_BFM.m'
