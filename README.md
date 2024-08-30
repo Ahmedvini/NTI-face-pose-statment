@@ -1,11 +1,47 @@
-# NTI-face-pose-statment
-### Face Pose Estimation Project
+# Facial Pose Estimation System
 
-This project involves developing a system to determine the direction a person's face is looking in a photograph. By analyzing images, the system estimates whether a face is turned left, right, up, or down. This has practical applications in fields like augmented reality and facial recognition, enhancing user experiences by accurately tracking gaze direction and improving identification accuracy.
+This project was developed as part of the National Telecommunication Institute (NTI) Machine Learning for Data Analysis Internship. The Facial Pose Estimation System detects and predicts the pose of faces in images and videos using machine learning models. The project leverages tools like dlib for facial landmark detection, SVM models for pose prediction, and MediaPipe for visualization.
 
-To achieve this, we collected a diverse set of images featuring faces at various angles and used advanced image processing techniques. The project explored both traditional machine learning and modern deep learning methods to train the system. A user-friendly interface was also developed for real-time face pose estimation.
+## Table of Contents
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributors](#contributors)
+- [License](#license)
 
-This work was completed as part of our graduation requirements at the National Training Institute (NTI), showcasing our skills in computer vision and machine learning . It highlights the practical applications of this technology in everyday life.
+## Overview
 
+The Facial Pose Estimation System predicts the **pitch**, **yaw**, and **roll** of a face using a combination of machine learning models and real-time facial landmark detection. This system can be used to analyze head orientation in various applications such as driver monitoring systems, virtual reality, and human-computer interaction.
 
-I did all the implementation alone 😢
+## Technologies Used
+
+- **Python 3.x**
+- **OpenCV**: For image and video processing.
+- **dlib**: For facial landmark detection.
+- **scikit-learn**: For training and using SVM models.
+- **MediaPipe**: For visualizing facial landmarks and pose estimation.
+- **tkinter**: For file selection dialogs.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AbdelrahmanAboegela/NTI-face-pose-estimation.git
+   cd NTI-face-pose-estimation
+   
+2. **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Download the dlib pre-trained model:**
+   Download shape_predictor_68_face_landmarks.dat from dlib's model page and place it in the project directory.
+
+   ## Usage
+   ### Running the System
+   To run the facial pose estimation system on an image, video, or camera feed, follow these steps:
+
+   1. **Run the script:**
+   ```bash
+   python facial_pose_estimation.py
