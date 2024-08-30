@@ -1,30 +1,32 @@
 # Facial Pose Estimation System
 
-This project was developed as part of the National Telecommunication Institute (NTI) Machine Learning for Data Analysis Internship. The Facial Pose Estimation System detects and predicts the pose of faces in images and videos using machine learning models. The project leverages tools like dlib for facial landmark detection, SVM models for pose prediction, and MediaPipe for visualization.
+This project was developed as part of the National Telecommunication Institute (NTI) Machine Learning for Data Analysis Internship. The Facial Pose Estimation System is designed to detect and predict the orientation of faces in images and videos by estimating the pitch, yaw, and roll angles using machine learning techniques. This system combines the capabilities of dlib for facial landmark detection, SVM models for pose prediction, and MediaPipe for real-time visualization.
 
 ## Table of Contents
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Pose Estimation on Images](#pose-estimation-on-images)
+  - [Pose Estimation on Videos](#pose-estimation-on-videos)
 - [Results](#results)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Overview
 
-The Facial Pose Estimation System predicts the **pitch**, **yaw**, and **roll** of a face using a combination of machine learning models and real-time facial landmark detection. This system can be used to analyze head orientation in various applications such as driver monitoring systems, virtual reality, and human-computer interaction.
+The Facial Pose Estimation System accurately predicts the **pitch**, **yaw**, and **roll** of a face using a combination of machine learning models and real-time facial landmark detection. This system can be applied in various fields such as driver monitoring systems, virtual reality, human-computer interaction, and more.
 
 ## Technologies Used
 
-- **Python 3.x**
-- **OpenCV**: For image and video processing.
-- **dlib**: For facial landmark detection.
-- **scikit-learn**: For training and using SVM models.
-- **MediaPipe**: For visualizing facial landmarks and pose estimation.
-- **tkinter**: For file selection dialogs.
+- **Python 3.x**: The programming language used for development.
+- **OpenCV**: For processing images and videos.
+- **dlib**: Utilized for facial landmark detection.
+- **scikit-learn**: Employed for training and using SVM models.
+- **MediaPipe**: Used for visualizing facial landmarks and pose estimation.
+- **tkinter**: Provides a graphical interface for file selection.
 
 ## Installation
+
+To get started with the Facial Pose Estimation System, follow these steps:
 
 1. **Clone the repository:**
    ```bash
@@ -38,10 +40,30 @@ The Facial Pose Estimation System predicts the **pitch**, **yaw**, and **roll** 
 3. **Download the dlib pre-trained model:**
    Download shape_predictor_68_face_landmarks.dat from dlib's model page and place it in the project directory.
 
-   ## Usage
-   ### Running the System
-   To run the facial pose estimation system on an image, video, or camera feed, follow these steps:
+## Usage
 
-   1. **Run the script:**
+## 1.Pose Estimation on Images
+The SVM models for predicting pitch, yaw, and roll angles are already trained and ready to use. To perform facial           pose estimation on individual images:
+   
+**Run the script:**
    ```bash
-   python facial_pose_estimation.py
+   python predict_face_pose_image.py
+   ```
+This script will prompt you to select an image file, process it, and display the image with the predicted pose angles.
+
+## 2.Pose Estimation on Videos
+To perform facial pose estimation on video files or live camera feeds:
+   
+**Run the script:**
+```bash
+python predict_face_pose_video.py
+```
+This script will allow you to select a video file. It processes each frame, predicts the pose angles, and saves the output video with visualizations.
+
+## Results
+The results from the system include visualizations of the facial landmarks and the estimated pitch, yaw, and roll angles superimposed on the images or video frames.
+
+
+
+https://github.com/user-attachments/assets/b2fb3d73-221a-46eb-b59c-8aa341d53a45
+
