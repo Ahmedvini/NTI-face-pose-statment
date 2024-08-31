@@ -38,7 +38,7 @@ To get started with the Facial Pose Estimation System, follow these steps:
    pip install -r requirements.txt
 
 3. **Download the dlib pre-trained model:**
-   Download shape_predictor_68_face_landmarks.dat from dlib's model page and place it in the project directory.
+   Download ```shape_predictor_68_face_landmarks.dat```.
 
 ## Usage
 
