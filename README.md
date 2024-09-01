@@ -42,7 +42,7 @@ To get started with the Facial Pose Estimation System, follow these steps:
 
 ## Usage
 
-## 1. Pose Estimation on Images
+## Pose Estimation on Images
 The SVM models for predicting pitch, yaw, and roll angles are already trained and ready to use. To perform facial           pose estimation on individual images:
    
 **Run the script:**
@@ -51,7 +51,7 @@ The SVM models for predicting pitch, yaw, and roll angles are already trained an
    ```
 This script will prompt you to select an image file, process it, and display the image with the predicted pose angles.
 
-## 2. Pose Estimation on Videos
+## Pose Estimation on Videos
 To perform facial pose estimation on video files or live camera feeds:
    
 **Run the script:**
