@@ -82,10 +82,14 @@ We would like to acknowledge the valuable contributions of the following team me
 - **Ahmed Elsheikh** - [GitHub Profile](https://github.com/Ahmedvini)
   
     Hosted and maintained the main repository.
-    Prepared and delivered the presentation.
+    Provided support during the project, including contributions to documentation and presentation materials.
   
 - **Ahmed Mohamed** - [GitHub Profile](https://github.com/Mido4125)
+
+    Assisted with initial project setup and research, contributing to the project's development.
+  
 - **Omar Tamer** - [GitHub Profile](https://github.com/omartamer44)
 
+    Contributed to research and provided valuable feedback during the development process.
 
 
