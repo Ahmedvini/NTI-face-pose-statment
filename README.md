@@ -10,7 +10,8 @@ This project was developed as part of the National Telecommunication Institute (
   - [Pose Estimation on Images](#pose-estimation-on-images)
   - [Pose Estimation on Videos](#pose-estimation-on-videos)
 - [Results](#results)
-
+- [Credits](#credits)
+  
 ## Overview
 
 The Facial Pose Estimation System accurately predicts the **pitch**, **yaw**, and **roll** of a face using a combination of machine learning models and real-time facial landmark detection. This system can be applied in various fields such as driver monitoring systems, virtual reality, human-computer interaction, and more.
@@ -67,3 +68,9 @@ The results from the system include visualizations of the facial landmarks and t
 
 
 
+## Credits
+We would like to acknowledge the valuable contributions of the following team members to this project:
+
+- **Ahmed Elsheikh** - [GitHub Profile](https://github.com/Ahmedvini)
+- **Ahmed Mohamed** - [GitHub Profile](https://github.com/Mido4125)
+- **Omar Tamer** - [GitHub Profile](https://github.com/omartamer44)
