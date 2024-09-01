@@ -76,7 +76,14 @@ https://github.com/user-attachments/assets/526f29f7-84e3-4140-851c-659835904886
 We would like to acknowledge the valuable contributions of the following team members to this project:
 
 - **Abdelrahman Ashraf** - [GitHub Profile](https://github.com/AbdelrahmanAboegela)
+  
+    Primary developer and project lead. Responsible for the core architecture, implementation, and overall project management.
+  
 - **Ahmed Elsheikh** - [GitHub Profile](https://github.com/Ahmedvini)
+  
+    Hosted and maintained the main repository.
+    Prepared and delivered the presentation.
+  
 - **Ahmed Mohamed** - [GitHub Profile](https://github.com/Mido4125)
 - **Omar Tamer** - [GitHub Profile](https://github.com/omartamer44)
 
