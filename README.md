@@ -77,19 +77,17 @@ We would like to acknowledge the valuable contributions of the following team me
 
 - **Abdelrahman Ashraf** - [GitHub Profile](https://github.com/AbdelrahmanAboegela)
   
-    Primary developer and project lead. Responsible for the core architecture, implementation, and overall project management.
+    
   
 - **Ahmed Elsheikh** - [GitHub Profile](https://github.com/Ahmedvini)
   
-    Hosted and maintained the main repository.
-    Provided support during the project, including contributions to documentation and presentation materials.
+    
   
 - **Ahmed Mohamed** - [GitHub Profile](https://github.com/Mido4125)
 
-    Assisted with initial project setup and research, contributing to the project's development.
+   
   
 - **Omar Tamer** - [GitHub Profile](https://github.com/omartamer44)
 
-    Contributed to research and provided valuable feedback during the development process.
 
 
