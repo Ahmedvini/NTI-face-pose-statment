@@ -23,7 +23,6 @@ if nargin == 3
     end
     text(keyPoints(1, :), keyPoints(2, :), keyPoints(3, :)+100, msg);
 end
-
 light('Position', [0 0 1], 'Style', 'infinite');
 lighting gouraud
 axis equal
